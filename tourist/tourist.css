@@ -1,0 +1,55 @@
+h2{
+    text-align: center;
+}
+.container{
+display: flex;
+
+align-items: center;
+}
+img{
+    width: 500px;
+
+}
+
+.explanation {
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+table{
+    width: 100%;
+  }
+  
+  table th{
+    position: relative;
+    text-align: left;
+    width: 15%;
+  }
+  
+  table th:after{
+    display: block;
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: #333;
+    position: absolute;
+    top:calc(50% - 1px);
+    right:-15px;
+  }
+  
+  table td{
+    text-align: left;
+    padding:7px 0 7px 30px;
+    width: 85%;
+  }
+  
