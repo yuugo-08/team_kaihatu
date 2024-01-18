@@ -3,53 +3,83 @@ h2{
 }
 .container{
 display: flex;
-
+justify-content: space-around;
 align-items: center;
 }
 img{
     width: 500px;
-
 }
-
+img.img{
+  width: 50%;
+}
 .explanation {
     margin-left: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 table{
-    width: 100%;
+  border-collapse:separate;
+  border-spacing: 5px;
+  width: 500px;
+  margin-top: 10px;
+}
+
+table th,table td{
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+table th{
+  background-color: #c79852;
+  color: white;
+  border:solid 1px #927141;
+}
+
+table td{
+  background-color: #e4d4bc;
+  border:solid 1px #af9d85;
+}
+  p{
+    line-height: 2;
+    font-weight: bold;
+    font-size: 20px;
   }
-  
-  table th{
-    position: relative;
-    text-align: left;
-    width: 15%;
+  .map-container{
+    width: 400px;
+    margin-right: 20px;
   }
-  
-  table th:after{
-    display: block;
-    content: "";
-    width: 30px;
-    height: 2px;
-    background-color: #333;
-    position: absolute;
-    top:calc(50% - 1px);
-    right:-15px;
-  }
-  
-  table td{
-    text-align: left;
-    padding:7px 0 7px 30px;
-    width: 85%;
-  }
-  
+
+
+ body.index{
+  background-image: url(t.img/white_00041.jpg);
+
+
+}
+a.btn {
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	width: 120px;
+margin: 10px auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+  background-color: white;
+	color: #27acd9;
+	border-bottom: 2px solid #27acd9;
+	border-radius: 100vh;
+	box-shadow: 0 2px 7px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, .3);
+	transition: 0.5s;
+}
+a.btn:hover {
+	color: #fff;
+	background: #27acd9;
+	border-bottom: 2px solid #fff;
+	transform: translateY(3px);
+}
+h2{
+  font-family: 'Kaisei Tokumin', serif;
+}
+.spot{
+  margin-top: 100px;
+}
