@@ -4,7 +4,7 @@ h2{
 .container{
 display: flex;
 justify-content: space-around;
-align-items: center;
+align-items: flex-start;
 }
 img{
     width: 500px;
@@ -14,6 +14,7 @@ img.img{
 }
 .explanation {
     margin-left: 10px;
+    margin-right: 10px;
 }
 table{
   border-collapse:separate;
@@ -38,6 +39,9 @@ table td{
   background-color: #e4d4bc;
   border:solid 1px #af9d85;
 }
+.table-container{
+  flex: 1;
+}
   p{
     line-height: 2;
     font-weight: bold;
@@ -46,6 +50,7 @@ table td{
   .map-container{
     width: 400px;
     margin-right: 20px;
+    align-self: flex-start;
   }
 
 
@@ -59,9 +64,9 @@ a.btn {
 	text-align: center;
 	vertical-align: middle;
 	text-decoration: none;
-	width: 120px;
-margin: 10px auto;
-	padding: 1rem 4rem;
+	width: 200px;
+margin: 50px auto;
+padding: 1rem;
 	font-weight: bold;
   background-color: white;
 	color: #27acd9;
@@ -81,5 +86,66 @@ h2{
   font-family: 'Kaisei Tokumin', serif;
 }
 .spot{
-  margin-top: 100px;
+  margin-top: 50px;
+}
+
+
+
+
+.nav-link{
+  color:#BA0C0C;
+  font-size: 20px;
+   font-weight: 900;
+}
+
+/* タイトル */
+.headtitle{
+   padding-top: 60px;
+   text-align: center;
+   color: #BA0C0C;
+}
+
+.title{
+       color:inherit;
+       text-decoration: none;
+}
+
+.titlefst{
+  color: #E6FF00;
+  font-size: 2.5rem;
+  margin: 120px 100px 20px 50px;
+}
+
+.titlesec{
+  color: #E6FF00;
+  font-size: 2.5rem;
+  margin:30px 50px 50px 200px;
+}
+
+.headtitle {
+  display: flex;
+  align-items: center;
+}
+
+.headtitle h1 {
+  flex: 1; /* タイトルが残りのスペースを占有 */
+  margin-right: 20px; /* タイトルと画像の間隔 */
+}
+
+.title-image img {
+  max-width: 100%; /* 画像が親要素内で最大限の幅になるように */
+  height: auto; /* アスペクト比を維持しつつ高さを自動調整 */
+}
+.left img {
+  width: 150px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.right{
+  margin-left: 400px;
+  margin-top: 150px;
+}
+.box{
+  display: flex;
 }

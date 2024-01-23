@@ -4,6 +4,8 @@
 <head>
   <link rel="stylesheet" href="tourist.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@700&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
@@ -12,12 +14,66 @@
 </head>
 
 <body class="index">
+
+  <nav class="navbar navbar-expand-lg navbar-collapse fixed-top">
+    <div class="container-fluid text-danger">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> <!-- ms-auto を追加 -->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              MENU
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="tourist/tourist.html">tourist</a></li>
+              <li><a class="dropdown-item" href="event/event.html">event</a></li>
+              <li><a class="dropdown-item" href="food/food.html">food</a></li>
+              <li><a class="dropdown-item" href="souvenir/souvenir.html">souvenir</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              WRITER
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="writer/yuugo.html">藤原宥吾</a></li>
+              <li><a class="dropdown-item" href="writer/haruto.html">八重樫晴人</a></li>
+              <li><a class="dropdown-item" href="writer/syouei.html">淺田翔瑛</a></li>
+              <li><a class="dropdown-item" href="writer/sena.html">菊池聖成</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--navber ここまで  -->
+
+
+  <div class="box">
+
+    <div class="left">
+      <img src="t.img/iwate.png">
+    </div>
+
+    <div class="right">
+      <h1>タイトル</h1>
+    </div>
+
+  </div>
+
+
+
+
   <div class="spot">
   <h2>中尊寺</h2>
 
   
     <div class="container">
-      <img class="img" src="t.img\276678_s.jpg">
+      <img class="img" src="t.img/276678_s.jpg">
       <div class="explanation">
         <p>中尊寺は、金色堂をはじめとして約3,000点もの文化財を有しており、讃衡蔵（さんこうぞう）と呼ばれる宝物館に一部が展示されています。
           1,000年以上も前に極楽浄土を夢見て作られた祈りの品の数々は、都心の博物館で目にするのとでは感じ方がまるで違います。</p>
@@ -135,7 +191,9 @@
     </div>
   </div>
 
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+  crossorigin="anonymous"></script>
 
 </body>
 
