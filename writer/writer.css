@@ -1,0 +1,95 @@
+/* writer.css */
+
+/* デフォルトのスタイルをリセット */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 本文のスタイル */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    font-size: 40px; /* フォントサイズを戻す */
+    color: #333; /* テキストカラーを追加 */
+}
+
+/* メインコンテナのスタイル */
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.syoukai {
+    flex: 1 1 300px;
+    padding: 20px;
+    background-color: #dcf5ee;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* 左側セクションのスタイル */
+.left {
+    float: left;
+    margin-right: 100px;
+    padding: 5px;
+}
+
+.left img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+/* 右側セクションのスタイル */
+.right {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.right h4 {
+    color: #555;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* 中央寄せのボタンスタイル */
+.text-center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-size: 16px; /* ボタンのフォントサイズを元に戻す */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.bg-warning {
+    background-color: #ffc107;
+    color: #fff;
+}
+
+/* レスポンシブデザインの調整 */
+@media (max-width: 768px) {
+    .left img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .right h4 {
+        font-size: 24px;
+    }
+}
