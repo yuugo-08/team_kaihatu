@@ -29,6 +29,7 @@ body {
 
 .syoukai {
     flex: 1 1 300px;
+    width: 100%;
     padding: 20px;
     background-color: #dcf5ee;
     border-radius: 8px;
