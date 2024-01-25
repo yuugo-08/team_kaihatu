@@ -4,7 +4,7 @@ h2{
 .container{
 display: flex;
 justify-content: space-around;
-align-items: flex-start;
+align-items: center;
 }
 img{
     width: 500px;
@@ -46,6 +46,7 @@ table td{
     line-height: 2;
     font-weight: bold;
     font-size: 20px;
+    margin-left: 50px;
   }
   .map-container{
     width: 400px;
