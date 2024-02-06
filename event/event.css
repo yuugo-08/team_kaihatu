@@ -57,3 +57,8 @@ a.btn:hover {
   border-bottom: 2px solid #fff;
   transform: translateY(3px);
 }
+
+body{
+    background-image: url(img/white_00041.jpg);
+    background-size: cover;
+  }
