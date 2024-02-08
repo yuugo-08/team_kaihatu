@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+html{
+    font-size: 100%;
+}
+body{
+    font-family: "游明朝体," "Yu Mincho" , YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+   
+}
+
+    /* display: flex; */
+
+
+
+.topic-item img{
+    height: 200px;
+    margin: 50px 120px 20px 120px;
+}
+.souvenir-links{
+    margin-bottom: 50%;
+    font-size: small;
+    text-align: center;
+    font-weight: 10;
+    font-size: 2rem;
+    padding: 4%;
+    color: black;
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.souvenir{
+    width: 30%;
+}
+
