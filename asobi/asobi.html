@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>占いページ</title>
+    <link rel="stylesheet" href="asobi.css">
+</head>
+<body>
+    <div id="container">
+        <div id="intro">ようこそ！占いのページへ。</div>
+        <div id="fortune-result">占いの結果: まだ占っていません。</div>
+        <button id="fortune-button" onclick="getFortune()">占う</button>
+    </div>
+
+    <script>
+        function getFortune() {
+            const fortunes = [
+                '大吉！良いことがありそうです。',
+                '中吉。普通の日々が幸せに感じるでしょう。',
+                '小吉。些細なことに幸運が訪れます。',
+                '吉。運気が上向きになります。',
+                '凶。気をつけて行動しましょう。',
+                '大凶。今日は慎重に過ごすことをお勧めします。'
+            ];
+
+            const randomFortune = fortunes[Math.floor(Math.random() * fortunes.length)];
+            document.getElementById('fortune-result').innerHTML = '占いの結果: ' + randomFortune;
+        }
+    </script>
+</body>
+</html>
