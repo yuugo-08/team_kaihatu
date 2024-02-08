@@ -1,0 +1,42 @@
+/* ナビゲーションバー */
+.nav-link{
+    color:#BA0C0C;
+    font-size: 20px;
+     font-weight: 900;
+ }
+
+ .left img {
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.right{
+    margin-left: 33%;
+    margin-top: 150px;
+}
+.box{
+    display: flex;
+}
+
+.top {
+    background-image: url("../img/kuramewa1.png");
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+
+.carousel-inner {
+    display: flex;
+}
+
+.carousel-item {
+    margin: 10px 5px;
+}
+
+.carousel-item img {
+    height: 400px;
+}
+
+body{
+    background-image: url(event/img/white_00041.jpg);
+}
