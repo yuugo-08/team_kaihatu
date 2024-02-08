@@ -1,11 +1,18 @@
 @charset "UTF-8";
+html{
+  font-size: 100%;
+}
 h2{
     text-align: center;
-    font-family: 'Kaisei Tokumin', serif;
+
+    margin-bottom: 30px;
 }
 
-h1{
-  margin-left: 80px;
+body{
+
+    font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+
+  
 }
 .container{
   display: flex;
@@ -14,11 +21,7 @@ h1{
   }
 
 
-#TOUR{
-  background-image: url(t.img/white_00041.jpg);
-  background-size: cover;
 
-}
 
 
 
@@ -58,20 +61,6 @@ a.btn:hover {
   transform: translateY(3px);
 }
 
-
-.left img {
-  width: 150px;
-  height: 200px;
-  border-radius: 50%;
-}
-
-.right{
-  margin-left: 650px;
-  margin-top: 100px;
-}
-.box{
-  display: flex;
-}
 
 
 
