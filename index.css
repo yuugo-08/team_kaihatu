@@ -24,28 +24,6 @@ body{
     background-size: cover;
 }
 
-.titlefst{
-    color: #E6FF00;
-    font-size: 2.5rem;
-    margin: 120px 100px 20px 50px;
-}
-
-.titlesec{
-    color: #E6FF00;
-    font-size: 2.5rem;
-    margin:30px 50px 50px 200px;
-}
-
-
-
-.carousel-item{
-    margin: 10px 5px;
-}
-
-.carousel-item img{
-    height: 400px;
-   width: max-content;
-}
 
 /* トピック */
 .topic{
@@ -85,10 +63,52 @@ body{
 }
 
 .right{
-    margin-left: 30%;
+    
     margin-top: 150px;
 }
 
 element.style {
     margin: 0% out;
+}
+.nav-link{
+    color:#BA0C0C;
+    font-size: 20px;
+     font-weight: 900;
+ }
+
+ .left img {
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.right{
+    margin-left: 25%;
+    margin-top: 150px;
+}
+.box{
+    display: flex;
+}
+
+.top {
+    background-image: url("../img/kuramewa1.png");
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+
+.carousel-inner {
+    display: flex;
+}
+
+.carousel-item {
+    margin: 10px 5px;
+}
+
+.carousel-item img {
+    height: 400px;
+}
+
+body{
+    background-image: url(/event/img/white_00041.jpg);
+    background-size: cover;
 }
