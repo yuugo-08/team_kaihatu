@@ -34,12 +34,13 @@ img.img {
 }
 
 a.btn {
+  font-family: 'Arial', sans-serif;
   display: block;
   text-align: center;
   text-decoration: none;
   width: 200px;
   margin: 10px auto;
-  padding: 1rem 4rem;
+  padding: 15px;
   font-weight: bold;
   background-color: white;
   color: #27acd9;
@@ -60,4 +61,8 @@ a.btn:hover {
 body{
     background-image: url(img/white_00041.jpg);
     background-size: cover;
+  }
+
+  span{
+    color: rgb(206, 52, 52);
   }
