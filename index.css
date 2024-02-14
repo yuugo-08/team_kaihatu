@@ -6,7 +6,7 @@ body{
 
 /* 背景画像 */
 #HOME{
-    background-image: url("../img/japanese-paper_00183.jpg");
+    background-image: url("img/japanese-paper_00183.jpg");
     background-size: cover;
 }
 
@@ -19,7 +19,7 @@ body{
 
 /* トップ */
 .top{
-    background-image: url("../img/kuramewa1.png");
+    background-image: url("img/kuramewa1.png");
     background-repeat: repeat-x;
     background-size: cover;
 }
@@ -91,7 +91,7 @@ element.style {
 }
 
 .top {
-    background-image: url("../img/kuramewa1.png");
+    background-image: url("img/kuramewa1.png");
     background-repeat: repeat-x;
     background-size: cover;
 }
@@ -109,6 +109,6 @@ element.style {
 }
 
 body{
-    background-image: url(/event/img/white_00041.jpg);
+    background-image: url(event/img/white_00041.jpg);
     background-size: cover;
 }

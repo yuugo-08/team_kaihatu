@@ -4,7 +4,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: url('../img/uranai.jpg') center/cover no-repeat; /* 背景画像のURLを指定 */
+    background: url('img/uranai.jpg') center/cover no-repeat; /* 背景画像のURLを指定 */
 }
 
 #container {
